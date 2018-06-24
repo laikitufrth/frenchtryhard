@@ -27,7 +27,7 @@ function play(connection, message) {
 
 }
 
-client.login("NDQ5MjQyMDE2MTc4NjM0NzUy.Deh0zQ.BTbGg4KT2mv92R7jIWxTT5JbHBw");
+client.login(process.env.TOKEN);
 
 client.on("ready", () => {
     console.log("Ready to botter le cul à Tsukiyo !");
