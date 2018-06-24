@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
-const YTDL = require("ytdl-core");
 const client = new Discord.Client();
+const YTDL = require("ytdl-core");
 
 var prefix = "fth";
 
